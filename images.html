@@ -1,11 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Images</title>
 </head>
+
 <body>
-    
+    <h1>Comprehensive HTML Image Handling</h1>
+    <h2>1. Basic Image Embedding</h2>
+    <p><b>Example of embedding images with different attributes:</b></p>
+    <img src="images/placeholder-image.jpg" alt="placeholder-image" width="300" height="200">
+    <p>This is a placeholder image with width and height attributes.</p>
+    <h2>2. Image Formats</h2>
+    <p><b>JPEG Image:</b></p>
+    <img src="images/aic-home.jpeg" alt="Mountains around River" width="300" height="200">
+    <p><b>PNG Image:</b></p>
+    <img src="images/spiderman.png" alt="Spiderman">
+    <p><b>SVG Image:</b></p>
+    <img src="images/image.svg" alt="svg image" width="300" height="300">
+    <p><b>GIF Image:</b></p>
+    <img src="images/Fresh new.gif" alt="gif image" width="400" height="400">
+    <h2>3. Image Maps</h2>
+    <p><b>Example of an image map with clickable areas:</b></p>
+    <iframe width="450" height="350" src="http://maps.google.co.uk/maps?q=moma+new+york
+&amp;output=embed">
+    </iframe>
+    <h2>4. Responsive Images</h2>
+    <p><b>Example of responsive images using srcset:</b></p>
+    <img src="images/aic-home.jpeg" alt="aic home image" srcset="AIC home" width="300" height="200">
+    <p><b>Example using the picture element:</b></p>
+    <picture>
+        <source srcset="http://digitalcommunications.wp.st-andrews.ac.uk/files/2019/04/JPEG_compression_Example.jpg"
+            type="image/webp">
+        <source srcset="https://digitalcommunications.wp.st-andrews.ac.uk/files/2019/04/JPEG_compression_Example.jpg"
+            type="image/jpeg">
+        <img src="http://digitalcommunications.wp.st-andrews.ac.uk/files/2019/04/JPEG_compression_Example.jpg"
+            alt="Picture Element Example" width="300" height="200">
+    </picture>
+    <h2>5. Image Gallery</h2>
+    <p><b>Example of a basic image gallery:</b></p>
+    <img src="images/aic-home.jpeg" alt="aic home image 1" width="200" height="200">
+    <img src="images/aic-home.jpeg" alt="aic home image 2" width="200" height="200">
+    <img src="images/aic-home.jpeg" alt="aic home image 3" width="200" height="200">
+    <img src="images/aic-home.jpeg" alt="aic home image 4" width="200" height="200">
 </body>
+
 </html>
